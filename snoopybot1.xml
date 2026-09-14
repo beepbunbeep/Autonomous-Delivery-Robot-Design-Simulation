@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/16/26||19:53:44" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="snoopybot" uid="snoopybot" version="240">
+<AssemblyFile name="snoopybot.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="snoopy_house-1" uid="snoopy_house-1" entityUid="snoopy_house*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.080000000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy_drawer-2" uid="snoopy_drawer-2" entityUid="snoopy_drawer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.18170886171665376 0.015000000000000013 0</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy!wheel-4" uid="snoopy!wheel-4" entityUid="snoopy!wheel*:*Default">
+<Transform>
+<Rotation>-0.99945301961386146 0 -0.033070554648118831 0.033070554648118831 0 -0.99945301961386146 0 -1 0</Rotation>
+<Translation>-0.17499999999999982 -0.050000000000000003 0.31184694222040549</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy!wheel-5" uid="snoopy!wheel-5" entityUid="snoopy!wheel*:*Default">
+<Transform>
+<Rotation>0.99189211133029431 0 -0.12708280560615157 -0.12708280560615157 0 -0.99189211133029431 0 1 0</Rotation>
+<Translation>-0.17499999999999982 -0.050000000000000003 -0.31184694222040549</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy!-1" uid="snoopy!-1" grounded="true" entityUid="snoopy!*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy!wheel-3" uid="snoopy!wheel-3" entityUid="snoopy!wheel*:*Default">
+<Transform>
+<Rotation>-0.9997364853268248 0 -0.022955607296853163 0.022955607296853163 0 -0.9997364853268248 0 -1 0</Rotation>
+<Translation>0.17920650752144651 -0.050000000000000003 0.31000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="snoopy!wheel-2" uid="snoopy!wheel-2" entityUid="snoopy!wheel*:*Default">
+<Transform>
+<Rotation>0.99303203975666698 0 -0.117844677506935 -0.117844677506935 0 -0.99303203975666698 0 1 0</Rotation>
+<Translation>0.17920650752144654 -0.049999999999999996 -0.31000000000000005</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.31000000000000011 0.080000000000000002 -0.23500000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.45000000000000001 -0.27500000000000002</Position>
+<Axis>1 0 -1.0092936587501423e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.080000000000000002 -0.23500000000000004</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0.45000000000000001 -0.27500000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.31000000000000011 0.080000000000000002 -0.27500000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0.45000000000000001 -0.27500000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.31000000000000011 0.080000000000000002 -0.27500000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.30499999999999988 0.45000000000000001 0.23000000000000004</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.31000000000000005 0.080000000000000002 0.23499999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.45000000000000001 -0.27500000000000002</Position>
+<Axis>1 0 -1.0092936587501423e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.080000000000000002 -0.23500000000000004</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0.45000000000000001 -0.27500000000000002</Position>
+<Axis>-1 0 2.0185873175002846e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.35000000000000009 0.080000000000000002 -0.23500000000000004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0.015000000000000013 0.26000000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_drawer-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0.375 0.26000000000000006</Position>
+<Axis>-1.0092936587501424e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_drawer-2</Uid>
+</InstancePath>
+<Position>-0.31927 0.35899999999999999 0.25999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0.375 -0.25999999999999984</Position>
+<Axis>1.0092936587501424e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_drawer-2</Uid>
+</InstancePath>
+<Position>-0.31927000000000011 0.35899999999999999 -0.26000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_drawer-2</Uid>
+</InstancePath>
+<Position>-0.31927000000000011 0.35899999999999999 -0.26000000000000006</Position>
+<Axis>-1 0 2.1350442781253008e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.17920650752144635 0.029999999999999999 -0.29000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy!wheel-2</Uid>
+</InstancePath>
+<Position>0 0.037999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.17499999999999999 0.029999999999999999 -0.29184694222040547</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy!wheel-5</Uid>
+</InstancePath>
+<Position>0 0.037999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.17920650752144635 0.029999999999999999 0.29000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy!wheel-3</Uid>
+</InstancePath>
+<Position>0 0.037999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.17499999999999999 0.029999999999999999 0.29184694222040547</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>snoopy!wheel-4</Uid>
+</InstancePath>
+<Position>0 0.037999999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.17920650752144635 0.029999999999999999 0.29000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!wheel-3</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.17499999999999999 0.029999999999999999 0.29184694222040547</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!wheel-4</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>0.17920650752144635 0.029999999999999999 -0.29000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!wheel-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy_house-1</Uid>
+</InstancePath>
+<Position>-0.17499999999999999 0.029999999999999999 -0.29184694222040547</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>snoopy!wheel-5</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="snoopy!" uid="snoopy!*:*Default" version="1202">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="snoopy!.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>58.762867082123755</Mass>
+<CenterOfMass>-0.012591202390075648 0.33667981364355892 0.0084089125760806096</CenterOfMass>
+<Inertia>4.4603556406405751 5.4712421838295882 6.4532415938377872 -0.11852266829800448 -0.1115113461008875 -1.3449834659628896</Inertia>
+</MassProperties>
+<GeometryFile name="snoopy!_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="snoopy!wheel" uid="snoopy!wheel*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="snoopy!wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35544160282905479</Mass>
+<CenterOfMass>0 0.011235405938774531 0</CenterOfMass>
+<Inertia>0.00046710247755511888 0.00089684212170915547 0.00046710247755511882 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="snoopy!wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="snoopy_drawer" uid="snoopy_drawer*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="snoopy_drawer.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.270057530513107</Mass>
+<CenterOfMass>0 0.13071748180837223 0</CenterOfMass>
+<Inertia>0.59246220268692606 1.0459138425721317 0.76395009857173279 0 5.5949302298969487e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="snoopy_drawer_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="snoopy_house" uid="snoopy_house*:*Default" version="540">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="snoopy_house.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>13.888070987450366</Mass>
+<CenterOfMass>0.0069489720284644403 0.029655506035287806 -0.0014680571749308658</CenterOfMass>
+<Inertia>0.33027436843339741 0.78289074431331995 0.46755040941304432 0.0003685608573894371 -0.0055418439394961279 -0.0010347484121295599</Inertia>
+</MassProperties>
+<GeometryFile name="snoopy_house_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
