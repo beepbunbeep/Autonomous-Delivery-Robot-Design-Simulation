@@ -12,7 +12,7 @@ However I humbly ask that you do not use these to cheat on your own classes or p
 
 I am not affiliated in any way with the Snoopy brand and have only used Snoopy's likeness to make this project more visually compelling (cuter). No profit has been or will be generated. 
 
-***KEEP IN MIND THAT THERE MAY BE SOME INCONSISTENCIES BETWEEN THE PROJECT FILES AND DOCUMENTATION BECAUSE OF A MISHAP WITH THE VERSION SAVES. THE MAIN PARTS ARE GOOD BUT DETAILS MAY NEED TO BE IRONED OUT.***
+***KEEP IN MIND THAT THERE MAY BE SOME INCONSISTENCIES BETWEEN THE PROJECT FILES AND DOCUMENTATION BECAUSE OF A MISHAP WITH THE VERSION SAVES. THE MAIN PARTS ARE GOOD BUT DETAILS NEED TO BE IRONED OUT.***
 
 
 
