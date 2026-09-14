@@ -1,5 +1,6 @@
 Hello!
-Added here are all the files related to my autonomous delivery robot project. 
+Added here are all the files related to my autonomous delivery robot project. I designed the full robot architecture in SolidWorks after calculating needed strength under the planned load with a safety factor of 1,5.
+Then, I developed MATLAB/Simulink models for kinematic and dynamic analysis, trajectory tracking and control-system evaluation. I dimensioned each of the three motors under simulated load and overload conditions and selected appropriate models. 
 
 The design is fully functional, all is calculated and tested in MATLAB/SIMULINK Multibody.
 
